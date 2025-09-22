@@ -1,13 +1,33 @@
-//Вивести числа від 1 до 10 for 
-// for (let i=1; i<=10; i++)
-// {
-//     console.log (i)
+// Function Expression
+// const getAreaExpression = function (width, height) {
+// return  width * height;
+// };
+// console.log ("area of a rectangle is " + getAreaExpression (10,5));
+
+// // arrow function
+// const getAreaArrow = (width, height) => width * height;
+// console.log ("area of a rectangle is " + getAreaArrow (10,5));
+
+// //task 2!!!!!!!!!
+// function isAdult(age) {
+//   return age >= 18;
 // }
 
-// //Вивести числа від 1 до 10  while
-// let i =1;
-// while ( i<=10)
-// {
-//     console.log (i);
-//     i++;
+// console.log (isAdult (15));
+// console.log (isAdult (25));
+
+// /// task 3
+// function checkOrder (available, ordered) {
+// if (available < ordered) {
+//     return “Your order is too large, we don’t have enough goods.”;
 // }
+// if  (ordered === 0) {
+//     return “Your order is empty”;
+// }
+// return “Your order is accepted";
+
+// }
+
+
+
+    
